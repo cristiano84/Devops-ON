@@ -19,6 +19,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<sonar.organization>ci-and-cd</sonar.organization>
+		<sonar.projectKey>ci-and-cd_continuos</sonar.projectKey>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
