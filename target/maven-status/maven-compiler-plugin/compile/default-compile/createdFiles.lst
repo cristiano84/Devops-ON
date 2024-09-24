@@ -1,0 +1,12 @@
+com/example/demo/user/User.class
+com/example/demo/user/UserService.class
+com/example/demo/DemoApplication.class
+com/example/demo/configuration/LoggedInUser.class
+ExemploVulnerabilidade.class
+com/example/demo/user/UserController.class
+com/example/demo/user/UserAuthorizationService.class
+com/example/demo/configuration/UserAuthService.class
+com/example/demo/configuration/AppUser.class
+com/example/demo/configuration/SecurityConfiguration.class
+com/example/demo/user/UserRepository.class
+com/example/demo/configuration/SecurityConfiguration$1.class

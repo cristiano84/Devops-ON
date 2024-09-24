@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+demo,default,ExemploVulnerabilidade,44,0,2,0,15,0,3,0,2,0
+demo,com.example.demo.configuration,UserAuthService,17,3,2,0,4,1,2,1,1,1
+demo,com.example.demo.configuration,SecurityConfiguration.new AuthenticationEntryPoint() {...},7,6,0,0,2,1,1,1,1,1
+demo,com.example.demo.configuration,AppUser,105,0,14,0,12,0,21,0,14,0
+demo,com.example.demo.configuration,SecurityConfiguration,0,66,0,0,0,15,0,4,0,4
+demo,com.example.demo,DemoApplication,21,3,0,0,8,1,7,1,7,1
+demo,com.example.demo.user,UserAuthorizationService,37,3,8,0,10,1,5,1,1,1
+demo,com.example.demo.user,UserService,33,9,0,0,6,4,2,1,2,1
+demo,com.example.demo.user,User,303,3,56,0,7,1,46,1,18,1
+demo,com.example.demo.user,UserController,11,3,0,0,2,1,2,1,2,1
