@@ -1,0 +1,24 @@
+
+Mcom.example.demo.configuration.AppUser#getAuthorities()Ljava/util/Collection;X
+N/home/cris/Devops-ON/src/main/java/com/example/demo/configuration/AppUser.java0 (>"1*¶
+1 (‡
+„
+6 (? 
+%0com.example.demo.user.User"__id*P
+
+__unknown_file (4*2(
+&com.example.demo.configuration.AppUser"
+userˆ
+…
+ (J
+%1"sorg.springframework.security.core.authority.AuthorityUtils#createAuthorityList([Ljava/lang/String;)Ljava/util/List;*Z
+
+__unknown_file (>"<
+:org.springframework.security.core.authority.AuthorityUtils*"
+
+__unknown_file (
+"""
+ (K
+
+%1B*(
+&com.example.demo.configuration.AppUserH

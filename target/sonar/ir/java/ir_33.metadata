@@ -1,0 +1,3 @@
+com.example.demo.user.UserController#updateUser(JLcom/example/demo/user/User;)Lcom/example/demo/user/User;
+==
+updateUser com.example.demo.user.UserService#updateUser(JLcom/example/demo/user/User;)Lcom/example/demo/user/User;

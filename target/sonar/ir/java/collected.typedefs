@@ -1,0 +1,90 @@
+ç
+ com.example.demo.DemoApplication4
+<init>*com.example.demo.DemoApplication#<init>()VO
+healthCheck@com.example.demo.DemoApplication#healthCheck()Ljava/lang/String;C
+main;com.example.demo.DemoApplication#main([Ljava/lang/String;)V?
+pub8com.example.demo.DemoApplication#pub()Ljava/lang/String;o
+secureddcom.example.demo.DemoApplication#secured(Lcom/example/demo/configuration/AppUser;)Ljava/lang/Object;Q
+securedAdminAcom.example.demo.DemoApplication#securedAdmin()Ljava/lang/String;A
+time9com.example.demo.DemoApplication#time()Ljava/lang/String;C
+turma:com.example.demo.DemoApplication#turma()Ljava/lang/String;java.lang.Object≥
+!com.example.demo.user.UserServiceö
+<init>ècom.example.demo.user.UserService#<init>(Lcom/example/demo/user/UserRepository;Lorg/springframework/security/crypto/password/PasswordEncoder;)Vh
+save`com.example.demo.user.UserService#save(Lcom/example/demo/user/User;)Lcom/example/demo/user/User;u
+
+updateUsergcom.example.demo.user.UserService#updateUser(JLcom/example/demo/user/User;)Lcom/example/demo/user/User;java.lang.Object¶
+&com.example.demo.configuration.AppUserV
+<init>Lcom.example.demo.configuration.AppUser#<init>(Lcom/example/demo/user/User;)V_
+getAuthoritiesMcom.example.demo.configuration.AppUser#getAuthorities()Ljava/util/Collection;U
+getPasswordFcom.example.demo.configuration.AppUser#getPassword()Ljava/lang/String;U
+getUsernameFcom.example.demo.configuration.AppUser#getUsername()Ljava/lang/String;T
+isAccountNonExpired=com.example.demo.configuration.AppUser#isAccountNonExpired()ZR
+isAccountNonLocked<com.example.demo.configuration.AppUser#isAccountNonLocked()Z\
+isCredentialsNonExpiredAcom.example.demo.configuration.AppUser#isCredentialsNonExpired()Z@
+	isEnabled3com.example.demo.configuration.AppUser#isEnabled()Z9org.springframework.security.core.userdetails.UserDetailsjava.lang.Objecto
+$com.example.demo.user.UserRepository5org.springframework.data.jpa.repository.JpaRepositoryjava.lang.Object“
+.com.example.demo.user.UserAuthorizationServiceB
+<init>8com.example.demo.user.UserAuthorizationService#<init>()VJ
+	canUpdate=com.example.demo.user.UserAuthorizationService#canUpdate(JJ)Zjava.lang.ObjectÚ
+.com.example.demo.configuration.UserAuthServiceB
+<init>8com.example.demo.configuration.UserAuthService#<init>()Vß
+loadUserByUsernameêcom.example.demo.configuration.UserAuthService#loadUserByUsername(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;@org.springframework.security.core.userdetails.UserDetailsServicejava.lang.ObjectÂ
+$com.example.demo.user.UserController8
+<init>.com.example.demo.user.UserController#<init>()Vw
+
+createUsericom.example.demo.user.UserController#createUser(Lcom/example/demo/user/User;)Lcom/example/demo/user/User;x
+
+updateUserjcom.example.demo.user.UserController#updateUser(JLcom/example/demo/user/User;)Lcom/example/demo/user/User;java.lang.Object`
++com.example.demo.configuration.LoggedInUserjava.lang.annotation.Annotationjava.lang.Objectë
+ExemploVulnerabilidade*
+<init> ExemploVulnerabilidade#<init>()V9
+main1ExemploVulnerabilidade#main([Ljava/lang/String;)Vjava.lang.ObjectÕ
+4com.example.demo.configuration.SecurityConfigurationH
+<init>>com.example.demo.configuration.SecurityConfiguration#<init>()V¥
+	configure¶com.example.demo.configuration.SecurityConfiguration#configure(Lorg/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder;)Vô
+	configureãcom.example.demo.configuration.SecurityConfiguration#configure(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Vò
+passwordEncoderÑcom.example.demo.configuration.SecurityConfiguration#passwordEncoder()Lorg/springframework/security/crypto/password/PasswordEncoder;]org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter^
+com.example.demo.user.User.
+<init>$com.example.demo.user.User#<init>()Vjava.lang.Object´
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;´
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;´
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;´
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;´
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;´
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+java.util.Scanner'
+nextIntjava.util.Scanner#nextInt()IY
+java.io.BufferedReader?
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;

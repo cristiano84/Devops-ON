@@ -1,0 +1,16 @@
+com.example.demo.configuration.SecurityConfiguration#configure(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)V
+org.springframework.security.config.annotation.web.builders.HttpSecurity#authorizeRequests()Lorg/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer$ExpressionInterceptUrlRegistry;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#httpBasic()Lorg/springframework/security/config/annotation/web/configurers/HttpBasicConfigurer;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#csrf()Lorg/springframework/security/config/annotation/web/configurers/CsrfConfigurer;
+org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer$ExpressionInterceptUrlRegistry#and()Lorg/springframework/security/config/annotation/web/HttpSecurityBuilder;
+org.springframework.security.config.annotation.web.configurers.HttpBasicConfigurer#authenticationEntryPoint(Lorg/springframework/security/web/AuthenticationEntryPoint;)Lorg/springframework/security/config/annotation/web/configurers/HttpBasicConfigurer;
+org.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer#sessionCreationPolicy(Lorg/springframework/security/config/http/SessionCreationPolicy;)Lorg/springframework/security/config/annotation/web/configurers/SessionManagementConfigurer;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#sessionManagement()Lorg/springframework/security/config/annotation/web/configurers/SessionManagementConfigurer;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#headers()Lorg/springframework/security/config/annotation/web/configurers/HeadersConfigurer;
+==
+disable org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer#disable()Lorg/springframework/security/config/annotation/web/HttpSecurityBuilder;
+authenticated org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer$AuthorizedUrl#authenticated()Lorg/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer$ExpressionInterceptUrlRegistry;
+permitAll org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer$AuthorizedUrl#permitAll()Lorg/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer$ExpressionInterceptUrlRegistry;
+antMatchers org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry#antMatchers(Lorg/springframework/http/HttpMethod;[Ljava/lang/String;)Ljava/lang/Object;
+anyRequest org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry#anyRequest()Ljava/lang/Object;
+antMatchers org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry#antMatchers([Ljava/lang/String;)Ljava/lang/Object;

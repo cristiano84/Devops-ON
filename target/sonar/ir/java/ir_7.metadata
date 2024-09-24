@@ -1,0 +1,5 @@
+com.example.demo.DemoApplication#time()Ljava/lang/String;
+java.util.Date#<init>()V
+java.util.Date#instance-init#
+==
+toString java.util.Date#toString()Ljava/lang/String;

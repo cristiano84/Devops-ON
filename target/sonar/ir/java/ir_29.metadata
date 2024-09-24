@@ -1,0 +1,7 @@
+com.example.demo.configuration.UserAuthService#loadUserByUsername(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;
+org.springframework.security.core.userdetails.UsernameNotFoundException#<init>(Ljava/lang/String;)V
+com.example.demo.configuration.AppUser#instance-init#
+org.springframework.security.core.userdetails.UsernameNotFoundException#instance-init#
+com.example.demo.configuration.AppUser#<init>(Lcom/example/demo/user/User;)V
+==
+findByUsername com.example.demo.user.UserRepository#findByUsername(Ljava/lang/String;)Lcom/example/demo/user/User;

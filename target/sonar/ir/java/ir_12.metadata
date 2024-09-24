@@ -1,0 +1,5 @@
+com.example.demo.user.UserService#updateUser(JLcom/example/demo/user/User;)Lcom/example/demo/user/User;
+java.time.LocalDateTime#now()Ljava/time/LocalDateTime;
+==
+getOne org.springframework.data.jpa.repository.JpaRepository#getOne(Ljava/lang/Object;)Ljava/lang/Object;
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;

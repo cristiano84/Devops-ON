@@ -1,0 +1,41 @@
+
+9com.example.demo.DemoApplication#time()Ljava/lang/String;R
+H/home/cris/Devops-ON/src/main/java/com/example/demo/DemoApplication.java/ /("1*ı
+10	 0(20
+0 0(
+%0java.util.Date"java.util.Date`
+^
+0	 0(
+%1"java.util.Date#<init>()V*2
+
+__unknown_file (
+
+%0java.util.Dateíè
+0	 0(
+%2java.lang.String"+java.util.Date#toString()Ljava/lang/String;*2
+
+__unknown_file (
+
+%0java.util.Date2
+toString()∑
+¥
+0	 0(
+%3"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%2java.lang.String[
+Y
+0 0(
+%4"__return_xss_sink*4
+
+__unknown_file (
+
+%2java.lang.String"$
+0 0(
+
+%2java.lang.StringB$"
+ com.example.demo.DemoApplication

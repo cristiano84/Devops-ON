@@ -1,0 +1,2 @@
+com.example.demo.configuration.AppUser#getAuthorities()Ljava/util/Collection;
+org.springframework.security.core.authority.AuthorityUtils#createAuthorityList([Ljava/lang/String;)Ljava/util/List;

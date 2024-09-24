@@ -1,0 +1,4 @@
+com.example.demo.user.UserService#save(Lcom/example/demo/user/User;)Lcom/example/demo/user/User;
+==
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;
+encode org.springframework.security.crypto.password.PasswordEncoder#encode(Ljava/lang/CharSequence;)Ljava/lang/String;

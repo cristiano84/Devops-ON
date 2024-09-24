@@ -1,0 +1,44 @@
+
+dcom.example.demo.DemoApplication#secured(Lcom/example/demo/configuration/AppUser;)Ljava/lang/Object;R
+H/home/cris/Devops-ON/src/main/java/com/example/demo/DemoApplication.java ("startingBlock*¾
+startingBlock (5Ä
+Á
+ (
+%0"
+__annotate*R
+
+__unknown_file (64
+2org.springframework.web.bind.annotation.GetMapping*O
+
+__unknown_file (3
+1
+appUser&com.example.demo.configuration.AppUser½
+º
+ ($
+%1"
+__annotate*K
+
+__unknown_file (/-
++com.example.demo.configuration.LoggedInUser*O
+
+__unknown_file (3
+1
+appUser&com.example.demo.configuration.AppUser–
+“
+- (41
+appUser&com.example.demo.configuration.AppUser"__annotation*"
+
+__unknown_file (
+
+%0*"
+
+__unknown_file (
+
+%1*
+1*!
+1	 ("
+ (
+"":=
+ (41
+appUser&com.example.demo.configuration.AppUserB$"
+ com.example.demo.DemoApplicationH

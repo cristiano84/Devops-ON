@@ -1,0 +1,16 @@
+
+@com.example.demo.DemoApplication#healthCheck()Ljava/lang/String;R
+H/home/cris/Devops-ON/src/main/java/com/example/demo/DemoApplication.java (!"1*å
+1 ()³
+°
+ ()
+%0"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*0
+
+__unknown_file (
+HEALTH CHECK OK!" 
+ (*
+HEALTH CHECK OK!B$"
+ com.example.demo.DemoApplicationH

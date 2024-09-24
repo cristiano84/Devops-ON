@@ -1,0 +1,7 @@
+com.example.demo.user.UserAuthorizationService#canUpdate(JJ)Z
+java.util.Optional#isPresent()Z
+java.time.LocalDateTime#minusHours(J)Ljava/time/LocalDateTime;
+java.time.LocalDateTime#now()Ljava/time/LocalDateTime;
+java.util.Optional#get()Ljava/lang/Object;
+==
+findById org.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;
